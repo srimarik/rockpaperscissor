@@ -81,7 +81,7 @@ let score =JSON.parse(localStorage.getItem('score'));
     .innerHTML=`${result}`;  
 
     document.querySelector('.js_move')
-    .innerHTML=` you<img src="img/${playerMove}-emoji.png" class="move-icon">
+    .innerHTML=` you<img src="${playerMove}-emoji.png" class="move-icon">
     <img src="img/${computerMove}-emoji.png" class="move-icon">computer`;
 
     updateScoreElement();
